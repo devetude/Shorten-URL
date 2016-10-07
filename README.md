@@ -33,7 +33,7 @@ Shorten URL은 다음과 같은 반드시 필요한 2가지 **의존성 프로�
 > 1. **명령프롬프트** 혹은 **터미널**에서 ```git clone https://github.com/devetude/Shorten-URL.git```을 입력해주세요.
 > 2. **MySQL**에서 **데이터베이스**(예 : devetude_su)를 **생성**해주세요.
 > 3. **’Shorten-URL > db > url.sql’**을 이용하여 **url 테이블**을 생성하신 데이터베이스에 **생성**해주세요.
-> 4. **’Shorten-URL > classes > DB.php’**에서 데이터베이스 **연결 정보(ID, PW, HOST 등)**을 **수정**해주세요.
+> 4. **’Shorten-URL > classes > DB.php’**에서 데이터베이스 **정보(Database, Host, User, Password)**를 **수정**해주세요.
 > 5. **Apache Vertual Host**에 **Shorten-URL 디렉토리**를 **추가**해주세요.
 
 #* 라이센스
