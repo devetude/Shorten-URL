@@ -3,7 +3,7 @@
 **Shorten URL**은 긴 URL을 짧은 URL로 변경해주는 웹 사이트입니다.
 > **대표적인 예시 사이트:**
 > - **Google**의 https://goo.gl/
-> - **’Twitter’**의 https://t.co
+> - **Twitter**의 https://t.co
 
 # 업데이트 내역
 현재 최신버젼 : **v1.0.6**
@@ -30,7 +30,7 @@ Shorten URL은 다음과 같은 반드시 필요한 2가지 **의존성 프로�
 > - **apache rewrite_mod (http://httpd.apache.org/docs/current/mod/mod_rewrite.html)**
 
 # 설치순서
-> 1. **명령프롬프트** 혹은 **터미널**에서 ```git clone https://github.com/devetude/Shorten-URL.git```을 입력해주세요.
+> 1. **명령 프롬프트** 혹은 **터미널**에서 ```git clone https://github.com/devetude/Shorten-URL.git```을 입력해주세요.
 > 2. **MySQL**에서 **데이터베이스**(예 : devetude_su)를 **생성**해주세요.
 > 3. **’Shorten-URL > db > url.sql’**을 이용하여 **url 테이블**을 생성하신 데이터베이스에 **생성**해주세요.
 > 4. **’Shorten-URL > classes > DB.php’**에서 데이터베이스 **정보(Database, Host, User, Password)**를 **수정**해주세요.
